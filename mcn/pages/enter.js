@@ -1,8 +1,6 @@
-
-
 function Enter(){
     return(
-        <h1></h1>
+        <h2>Choisissez le set de commandes que vous souhaitez essayer</h2>
     );
 }
 
