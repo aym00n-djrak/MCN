@@ -12,6 +12,13 @@
   align-items: center;
 }
 
+.navbar{
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer {
   display: flex;
   flex: 1;

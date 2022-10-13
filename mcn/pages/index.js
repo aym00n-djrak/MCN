@@ -15,7 +15,7 @@ export default function Home() {
       <h1>Bienvenue chez MCN</h1>
       <div className='bouton'>
         <nav>
-         <Link href='/about'><a>About</a></Link>
+         <Link href='/enter'><a>Enter</a></Link>
          </nav>
       </div>
     </main>
