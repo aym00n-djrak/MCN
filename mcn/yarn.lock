@@ -1125,6 +1125,11 @@
   "resolved" "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz"
   "version" "2.0.0"
 
+"mtr@^0.2.1":
+  "integrity" "sha512-Tb4Ekp2x9CKCsKDwgeFX+S+OO3i7PZX42WDAHgmiZURz5s8eup9heCNgP1HBn65z2tFthpk346dfjcmc3YaQsA=="
+  "resolved" "https://registry.npmjs.org/mtr/-/mtr-0.2.1.tgz"
+  "version" "0.2.1"
+
 "nanoid@^3.3.4":
   "integrity" "sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw=="
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
@@ -1160,6 +1165,14 @@
     "@next/swc-win32-arm64-msvc" "12.3.1"
     "@next/swc-win32-ia32-msvc" "12.3.1"
     "@next/swc-win32-x64-msvc" "12.3.1"
+
+"node-nmap@^4.0.0":
+  "integrity" "sha512-VJGebpYsfqmUm46+Fq0qp1Y9VXGXZ7/WL03tHGy1oJHHxaJ2DvYLMjuYWYHDV0pgUL+e5/9rCN/QEsx3+fU9TA=="
+  "resolved" "https://registry.npmjs.org/node-nmap/-/node-nmap-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "queued-up" "^2.0.2"
+    "xml2js" "^0.4.15"
 
 "nodejs-traceroute@^1.2.0":
   "integrity" "sha512-mrhJf8Ulum2+OOie9zz7gXT6b2Wrjsll2Bo/yBXDBziEYHm3mZdtRMQtD9Hoj0BLHIRdMYrzL+flmkyZwaFgBg=="
@@ -1349,6 +1362,11 @@
   "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   "version" "1.2.3"
 
+"queued-up@^2.0.2":
+  "integrity" "sha512-6ToqVyUPHRoIcxLKyUz7TCph2NULzoc41TAjdX/Fv7wsvj+E7tAAgqOab1cIFe0uTLJNWOswbLG4eDd2j3Y8AA=="
+  "resolved" "https://registry.npmjs.org/queued-up/-/queued-up-2.0.2.tgz"
+  "version" "2.0.2"
+
 "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
@@ -1438,6 +1456,11 @@
     "call-bind" "^1.0.2"
     "get-intrinsic" "^1.1.3"
     "is-regex" "^1.1.4"
+
+"sax@>=0.6.0":
+  "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
+  "resolved" "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
+  "version" "1.2.4"
 
 "scheduler@^0.23.0":
   "integrity" "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw=="
@@ -1670,6 +1693,19 @@
   "integrity" "sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ=="
   "resolved" "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
   "version" "1.0.2"
+
+"xml2js@^0.4.15":
+  "integrity" "sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug=="
+  "resolved" "https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz"
+  "version" "0.4.23"
+  dependencies:
+    "sax" ">=0.6.0"
+    "xmlbuilder" "~11.0.0"
+
+"xmlbuilder@~11.0.0":
+  "integrity" "sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA=="
+  "resolved" "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz"
+  "version" "11.0.1"
 
 "yallist@^4.0.0":
   "integrity" "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A=="
